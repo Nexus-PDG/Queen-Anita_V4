@@ -1,10 +1,10 @@
 require('dotenv').config(); 
 
 global.owner = process.env.OWNER_NUMBER.split(','); 
-global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
+global.anitav4 = process.env.BOT_NAME || "DÉMONIAQUE";
+global.ownername = process.env.OWNER_NAME || "Milenskhy";
+global.packname = process.env.PACK_NAME || "https://files.catbox.moe/lx6zfr.jpg";
+global.author = process.env.AUTHOR || "RBS PDG";
 global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 global.autoTyping = process.env.AUTO_TYPING === 'true'; 
@@ -30,7 +30,7 @@ global.roles = {
 
 global.sudoUsers = process.env.SUDO_USERS.split(',').map(user => `${user}@s.whatsapp.net`); 
 
-global.public = process.env.PUBLIC === 'true';
+global.public = process.env.PUBLIC === 'no';
 
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
 global.unavailable = process.env.UNAVAILABLE === 'true';
@@ -45,7 +45,7 @@ global.prefix = process.env.PREFIX || '.';
 
 global.autobio = process.env.AUTO_BIO === 'true';
 
-global.ANTICALL = process.env.ANTICALL === 'true';
+global.ANTICALL = process.env.ANTICALL === 'no';
 
 global.antilink = process.env.ANTILINK === 'true';
 global.antilinkkick = process.env.ANTILINK_KICK === 'true';
@@ -54,7 +54,7 @@ global.antilinkwarn = process.env.ANTILINK_WARN === 'true';
 global.mess = {
     success: process.env.MESSAGE_SUCCESS || '𝙳𝚘𝚗𝚎',
     admin: process.env.MESSAGE_ADMIN || '_*❗This Command Can Only Be Used By Group Admins !*_',
-    botAdmin: process.env.MESSAGE_BOT_ADMIN || '_*❗This Command Can Only Be Used When Bot Becomes Group Admin !*_',
+    botAdmin: process.env.MESSAGE_BOT_ADMIN || '_*❗fòk ou ADM ebesil
     OnlyOwner: process.env.MESSAGE_OWNER || '_*❗This Command Can Only Be Used By My Owner !*_',
     OnlyGrup: process.env.MESSAGE_GROUP || '_*❗This Command Can Only Be Used In Group Chat !*_',
     private: process.env.MESSAGE_PRIVATE || '_*❗This Command Can Only Be Used In Private Chat !*_',
